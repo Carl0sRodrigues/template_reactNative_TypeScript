@@ -1,14 +1,14 @@
 import { View, Text, TouchableOpacity } from 'react-native';
 import styled from 'styled-components/native';
 
-export const ConteinerTop = styled(View)`
+export const ContainerTop = styled(View)`
 flex: 1;
 align-items: center;
 justify-content: center;
 background-color: #fff
 `;
 
-export const Conteiner = styled(View)`
+export const Container = styled(View)`
 flex-direction: row;
 align-items: center;
 justify-content: space-between
@@ -21,7 +21,7 @@ color: #000;
 font-size: 22px
 `;
 
-export const ConteinerButtom = styled(View)`
+export const ContainerButtom = styled(View)`
 flex: 1;
 flex-direction: column;
 align-items: center;

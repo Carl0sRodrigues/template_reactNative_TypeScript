@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigation } from '@react-navigation/native';
 import ActivityIcon from '../../components/icons/ActivityIcon';
 import HomeIcon from '../../components/icons/HomeIcon';
-import { ConteinerTop, Conteiner, Title, ConteinerButtom, Btn, TextButtom } from './styles';
+import { ContainerTop, Container, Title, ContainerButtom, Btn, TextButtom } from './styles';
 // import { RootStackParamList } from '../../Routes/types';
 // import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 
@@ -22,17 +22,17 @@ export default function Tab() {
   }
 
   return(
-    <ConteinerTop>
-      <Conteiner>
+    <ContainerTop>
+      <Container>
         <Title> Dando vida ao seu sonho! </Title>
         <ActivityIcon />
-      </Conteiner>
-      <ConteinerButtom>
+      </Container>
+      <ContainerButtom>
         <Btn onPress={()=> Start() }>
           <HomeIcon />
           <TextButtom> Home </TextButtom>
         </Btn>
-      </ConteinerButtom>
-    </ConteinerTop>
+      </ContainerButtom>
+    </ContainerTop>
   );
 }
